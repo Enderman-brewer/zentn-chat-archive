@@ -38,12 +38,12 @@ Here are the complete rules for the .zentn format along with examples:
    ```
 
 4. **Escaping Inner Quotes**:
-   - Double quotation marks inside a message should be escaped with `""` to preserve them.
+   - Triple quotation marks inside a message should be escaped with `"""` to preserve them.
 
    **Example**:
    ```
    List.obj.3("Chat3")
-     Host = "He said, ""Let's meet at noon."" and I agreed."
+     Host = "He said, """Let's meet at noon.""" and I agreed."
    ```
 
 5. **End of Chat**:
